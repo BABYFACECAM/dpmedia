@@ -6,20 +6,22 @@ import igLogo from "@/app/ui/logos/Instagram_Glyph_Gradient.svg";
 
 export default function Footer() {
   return (
-    <footer className="footer p-10 bg-base-100 text-red-900 font-bold">
+    <footer className="footer p-10 bg-black text-red-900 font-bold">
       <nav>
         <h5 className="footer-title">Genres</h5>
-        <Link href={"/hiphop"} className="link link-hover">
+        <Link href={"/hip-hop"} className="link link-hover">
           Hip-Hop
         </Link>
-        <Link href={"/edm"} className="link link-hover">
-          EDM
+
+        <Link href={"/country"} className="link link-hover">
+          Country
         </Link>
         <Link href={"/rock"} className="link link-hover">
           Rock
         </Link>
-        <Link href={"/country"} className="link link-hover">
-          Country
+
+        <Link href={"/edm"} className="link link-hover">
+          EDM
         </Link>
       </nav>
       <nav>
@@ -45,8 +47,8 @@ export default function Footer() {
         <Link href={"/contact"} className="link link-hover">
           Locals Only Hip-Hop Playlist
         </Link>
-        <Link href={"/jobs"} className="link link-hover hidden">
-          Jobs
+        <Link href={"/artists"} className="link link-hover">
+          Artist Spotlight
         </Link>
         <Link href={"/submissions"} className="link link-hover hidden">
           Submit Music Here
